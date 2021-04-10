@@ -64,7 +64,7 @@ kafka: 2.5.0
 
 模块调用图：
 
-![](/image/基础架构.png)
+![](https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/base.png)
 
 1~3：用户配置文件，存储信息直接保存元数据，sql信息经过解析后存入元数据
 
@@ -158,7 +158,7 @@ id	ip	city
 
 ## 提交运行
 
-![](D:.\image\提交运行.png)
+![](https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/run.png)
 
 ## 测试
 
@@ -170,7 +170,7 @@ id	ip	city
 
 示意图：
 
-<img src="./image/测试1.png" style="zoom:80%;" />
+<img src="https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/test1.png" style="zoom:80%;" />
 
 实时计算1输出：
 
@@ -223,7 +223,7 @@ id	ip	city
 
 示意图：
 
-<img src="./image/测试2.png" style="zoom:80%;" />
+<img src="https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/test2.png" style="zoom:80%;" />
 
 
 
