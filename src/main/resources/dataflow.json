@@ -1,0 +1,44 @@
+[
+  {
+    "name": "实时计算1",
+    "input_table_list": [
+      "zc_source_wb"
+    ],
+    "output_table": "zc_stream1",
+    "process_config": {
+      "window_type": "none",
+      "window_size": null,
+      "slide_size": null,
+      "session_gap": null,
+      "sql": "select ip,`method`,size from zc_source_wb where size > 300"
+    }
+  },
+  {
+    "name": "实时计算2",
+    "input_table_list": [
+      "zc_stream1"
+    ],
+    "output_table": "zc_stream2",
+    "process_config": {
+      "window_type": "slide",
+      "window_size": 10,
+      "slide_size": 15,
+      "session_gap": null,
+      "sql": "select `method`,max(size) as max_size from zc_stream1 group by `method`"
+    }
+  },
+  {
+    "name": "实时计算3",
+    "input_table_list": [
+      "zc_stream1"
+    ],
+    "output_table": "zc_stream3",
+    "process_config": {
+      "window_type": "tumble",
+      "window_size": 10,
+      "slide_size": null,
+      "session_gap": null,
+      "sql": "select `method`,sum(size) as sum_size from zc_stream1 group by `method`"
+    }
+  }
+]
