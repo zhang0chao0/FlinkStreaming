@@ -64,7 +64,7 @@ kafka: 2.5.0
 
 模块调用图：
 
-![](https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/base.png)
+![](http://m.qpic.cn/psc?/V50FMPk00YY8x32jy9ya2CRjOg46yWwH/45NBuzDIW489QBoVep5mcfFZu8JKMKq4rL64GIp6MkFDY879LcRGjY7Xq8c6MV1Ffh25gBK*dpPjbbq2fhLzlsHegcMR*0OR28AyBxmQvs4!/b&bo=tQHJAAAAAAADF08!&rf=viewer_4)
 
 1~3：用户配置文件，存储信息直接保存元数据，sql信息经过解析后存入元数据
 
@@ -158,7 +158,7 @@ id	ip	city
 
 ## 提交运行
 
-![](https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/run.png)
+<img src="http://m.qpic.cn/psc?/V50FMPk00YY8x32jy9ya2CRjOg46yWwH/45NBuzDIW489QBoVep5mcfFZu8JKMKq4rL64GIp6MkEkFQdhyMv*VYZuN6Gl4geRvj0OoQG3Oqy4LD1obXqsOZqkAIEHqVfrG*ZJwSqOURg!/b&amp;bo=9QncAwAAAAADJyE!&amp;rf=viewer_4" style="zoom:80%;" />
 
 ## 测试
 
@@ -170,7 +170,7 @@ id	ip	city
 
 示意图：
 
-<img src="https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/test1.png" style="zoom:80%;" />
+<img src="http://m.qpic.cn/psc?/V50FMPk00YY8x32jy9ya2CRjOg46yWwH/45NBuzDIW489QBoVep5mcdHZICvRuursNMZRmuhyw7EFRB3hvncNSxg48EBq5xGJW7smJJEXf*czKl9fGNSR0VjtqyFUGN66WrapBR1FfcQ!/b&bo=hQMtAQAAAAADF5g!&rf=viewer_4" style="zoom:80%;" />
 
 实时计算1输出：
 
@@ -223,7 +223,7 @@ id	ip	city
 
 示意图：
 
-<img src="https://github.com/zhang0chao0/FlinkStreaming/blob/main/image/test2.png" style="zoom:80%;" />
+<img src="http://m.qpic.cn/psc?/V50FMPk00YY8x32jy9ya2CRjOg46yWwH/45NBuzDIW489QBoVep5mcdHZICvRuursNMZRmuhyw7Fkr.xcR9QUAc9Eu2mKvO7mkFJIUPY.ZQANQ*aLhylv5aBJ3AHV*XKZHNKYWYmXmxA!/b&bo=bQOzAQAAAAADF.4!&rf=viewer_4" style="zoom:80%;" />
 
 
 
